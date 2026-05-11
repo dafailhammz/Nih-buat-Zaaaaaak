@@ -5,6 +5,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
 
 .song {
@@ -109,7 +110,7 @@ body {
 }
 
 .six .hat {
-  left: 100%;
+  left: 10%;
   position: absolute;
   /* transform: scale(0.1); */
   top: -35%;
@@ -228,13 +229,13 @@ body {
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 100%;
+    left: 10%;
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
-    left: 100%;
+    left: 10%;
   }
 }
 
